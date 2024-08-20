@@ -1,0 +1,140 @@
+        
+         body{
+            background-color: #d9d0b4;
+        }
+        @keyframes moveImage {
+            from {
+                transform: translateX(0);
+            }
+            to {
+                transform: translateX(-100px); /* Move 100px to the right */
+            }
+        }
+
+        /* Apply the animation to the image */
+        #image {
+            animation: moveImage 2s ease-out forwards; /* 2 seconds duration */
+        }
+        #image{
+            
+            position: absolute;
+            left: 900px;
+            top: 190px;
+            width: auto;
+            height: 70%;
+            
+        }
+        p{
+            position: absolute;
+            left: 40%;
+            top: 700px;
+            font-size: 50px;
+        }
+        table{
+            
+            position: absolute;
+            left: 30%;
+            top: 900px;
+            width:40%
+        }
+        
+       
+        ul{
+            display: inline; 
+        }
+        header{
+            position: relative;
+            overflow: hidden;
+            background-color: #7d6b57;
+            height:400px;
+        }
+        header h1{
+            position: relative;
+            text-align: center;
+            font-size: 60px;
+            color: rgb(6, 0, 6);
+            
+            text-shadow: 2px 2px 4px #000000;
+        }
+        #nav{
+            position: absolute;
+            left: 40px;
+            top: 40px;
+            list-style-type: none;
+            font-size: 20px;
+            
+        }
+        
+         
+        a {
+            text-decoration: none;
+        }
+        
+        #sidebar ul {
+           
+            text-align: center;
+            display: flex;
+            gap: 30px;
+            position: absolute;
+            left: 35%;
+            
+            
+            
+            
+        }
+        #sidebar ul a li{
+           color: #000000;
+             font-size: 20px;
+            
+            
+        }
+        
+        
+        #box{
+            position: absolute;
+            background-color: #f0f2ef;
+            opacity: 0.40;
+            left: 10%;
+            top: 290px;
+            width:30%;
+            border-radius: 25px;
+            height: 30%;
+            color: #040504;
+            
+            text-shadow: 2px 2px 4px #000000;
+            
+        }
+        #box pre{
+            position: absolute;
+            font-size: 25px;
+            top: 50px;
+            left: -10%;
+            opacity: 5;
+            
+        }
+        #box button{
+            position: absolute;
+            left: 40%;
+            top: 180px;
+            background: transparent;
+            
+            
+        }
+        #sign-up{
+            position: absolute;
+            left: 40%;
+            top: 1500px;
+            background: transparent;
+        }
+        #payment{
+            border: #000000;
+            border: 10px;
+            position: absolute;
+            left: 30%;
+            top: 2000px;
+            background: transparent;
+            border-style: solid;
+            gap: 10px;
+            width: 30%;
+            height: 30%;
+        }
